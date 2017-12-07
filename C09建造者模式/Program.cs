@@ -10,7 +10,13 @@ namespace C09建造者模式
 	{
 		static void Main(string[] args)
 		{
+			AbstractPersonBuilder apb = new FatPersonBuilder(100,"Jack");
+			BuilderDirector b = new BuilderDirector(apb);
+			b.CreatePerson();
 
+			AbstractPersonBuilder apb1 = new ThisPersonBuilder(80, "Mary");
+			b = new BuilderDirector(apb1);
+			b.CreatePerson();
 		}
 	}
 
