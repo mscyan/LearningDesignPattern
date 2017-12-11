@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C08门面(外观)模式", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C09建造者模式", "C09建造者模式\C09建造者模式.csproj", "{861F9A41-9F4B-4438-AD87-7CEE4A1FE943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZTest", "ZTest\ZTest.csproj", "{AD51464E-4945-49FB-9E33-9F998CE10E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C10观察者模式", "C10观察者模式\C10观察者模式.csproj", "{28DBA394-505E-422E-B567-9323E490D355}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{861F9A41-9F4B-4438-AD87-7CEE4A1FE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861F9A41-9F4B-4438-AD87-7CEE4A1FE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861F9A41-9F4B-4438-AD87-7CEE4A1FE943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD51464E-4945-49FB-9E33-9F998CE10E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD51464E-4945-49FB-9E33-9F998CE10E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD51464E-4945-49FB-9E33-9F998CE10E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD51464E-4945-49FB-9E33-9F998CE10E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DBA394-505E-422E-B567-9323E490D355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DBA394-505E-422E-B567-9323E490D355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DBA394-505E-422E-B567-9323E490D355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DBA394-505E-422E-B567-9323E490D355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

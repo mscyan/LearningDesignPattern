@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8304384-85A2-424E-860A-0AE2A4CF0300}</ProjectGuid>
+    <ProjectGuid>{28DBA394-505E-422E-B567-9323E490D355}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C03装饰模式</RootNamespace>
-    <AssemblyName>C03装饰模式</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <RootNamespace>C10观察者模式</RootNamespace>
+    <AssemblyName>C10观察者模式</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
